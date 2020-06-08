@@ -12,7 +12,7 @@ img{max-width: 100%;max-height: 100%;}
  }
 
 body{background-color: #eee;
-background-image: url(../image/sun.gif);
+background-image: url(/sun.43976893.gif);
 background-position: bottom 10px right 10px;
 background-attachment: fixed;
 background-repeat: no-repeat;
@@ -20,7 +20,7 @@ background-size: 120px;
 }
 @media(min-width:500px){
     body{background-color: #eee;
-        background-image: url(../image/cao.png);
+        background-image: url(/cao.f2fbac76.png);
         background-position: bottom;
         background-attachment: fixed;
         background-repeat:no-repeat;
@@ -170,3 +170,5 @@ margin-right: auto;
     font-size: 16px;
     margin-top: 4px;
 }
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
