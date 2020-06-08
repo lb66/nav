@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <title>前端导航</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="globalHeader">
+    <div class="titleImg"><img src="../image/sun.gif" alt=""></div>
+    <!-- 搜索框 -->
+    <form class="searchForm" method="GET" action="https://www.bing.com/search">
+      <input name="q" type="text">
+      <button type="submit">搜索</button>
+    </form>
+  </header>
+  <main class="globalMain">
+    <ul class="siteList">
+      <!-- 添加按钮 -->
+      <li class="last">
+        <div class="addButton">
+          <div class="iconAdd">
+            <svg class="icon">
+              <use xlink:href="#icon-add"></use>
+            </svg>
+          </div>
+          <div class="text">添加网站</div>
+        </div>
+      </li>
+    </ul>
+  </main>
+</body>
+<script src="//at.alicdn.com/t/font_1867896_i8eb950l6cc.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="main.js"></script>
+
+</html>
