@@ -18,9 +18,9 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: 120px;
 }
-@media(min-width:600px){
+@media(min-width:500px){
     body{background-color: #eee;
-        background-image: url(cao.a20a9a30.png);
+        background-image: url(cao2.6d6531e7.png);
         background-position: bottom;
         background-attachment: fixed;
         background-repeat:no-repeat;
@@ -32,17 +32,17 @@ background-size: 120px;
     flex-direction: column;
     align-items: center;
 }
-@media(min-width:600px){
+@media(min-width:500px){
     .globalHeader{
         margin-top: 30px;
         margin-bottom: 60px;
     }
 }
 .titleImg{
-    width: 120px;
+    width: 130px;
     margin-bottom: 20px;
 }
-@media(max-width:600px){
+@media(max-width:500px){
     .titleImg{
         display: none;
     }
@@ -53,7 +53,7 @@ background-size: 120px;
     height: 40px;
     width: 100%;
 }
-@media(min-width:600px){
+@media(min-width:500px){
     .searchForm{
         max-width: 450px;
         margin-left: auto;
@@ -90,7 +90,7 @@ margin-right: auto;
     margin: 20px;
 
 }
-@media(min-width:600px){
+@media(min-width:500px){
     .siteList{
         margin-left:0 ;
         margin-right: -25px;
@@ -101,7 +101,7 @@ margin-right: auto;
 .siteList > li{
     margin-bottom: 10px;
 }
-@media(min-width:600px){
+@media(min-width:500px){
     .siteList > li{
         margin-right: 25px;
         margin-bottom: 15px;
@@ -171,4 +171,4 @@ margin-right: auto;
     margin-top: 4px;
 }
 
-/*# sourceMappingURL=style.35556b94.css.map */
+/*# sourceMappingURL=style.7f452c07.css.map */

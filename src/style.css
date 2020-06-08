@@ -20,7 +20,7 @@ background-size: 120px;
 }
 @media(min-width:500px){
     body{background-color: #eee;
-        background-image: url(../image/cao.png);
+        background-image: url(../image/cao2.png);
         background-position: bottom;
         background-attachment: fixed;
         background-repeat:no-repeat;
@@ -39,7 +39,7 @@ background-size: 120px;
     }
 }
 .titleImg{
-    width: 120px;
+    width: 130px;
     margin-bottom: 20px;
 }
 @media(max-width:500px){
