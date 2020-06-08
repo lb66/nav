@@ -37,7 +37,11 @@ render();
 $('.addButton')
   .on('click', () => {
     let url = window.prompt('请输入需要添加的网址')
-    if (url.indexOf('http') !== 0) {
+    if (url == '') {
+      alert('啥都没有呀')
+      return
+    }
+    else if (url.indexOf('http') !== 0) {
       url = 'https://' + url
     }
     hashMap.push({

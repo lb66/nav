@@ -151,7 +151,10 @@ render();
 $('.addButton').on('click', function () {
   var url = window.prompt('请输入需要添加的网址');
 
-  if (url.indexOf('http') !== 0) {
+  if (url == '') {
+    alert('啥都没有呀');
+    return;
+  } else if (url.indexOf('http') !== 0) {
     url = 'https://' + url;
   }
 
@@ -180,4 +183,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.1fbb9505.js.map
+//# sourceMappingURL=main.06ba13e3.js.map
