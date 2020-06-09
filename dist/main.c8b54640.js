@@ -120,11 +120,11 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"epB2":[function(require,module,exports) {
 var $siteList = $('.siteList');
 var x = localStorage.getItem('x');
-var xObj = JSON.parse(x) || []; //把x变回对象
+var xObj = JSON.parse(x); // || [] //不显示已设定的网页 //把x变回对象
 
 var hashMap = xObj || [{
-  logo: '',
-  url: ''
+  logo: 'Y',
+  url: 'https://www.yuque.com/'
 }]; // hashMap.splice(0, 1)//测试用
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -183,4 +183,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.06ba13e3.js.map
+//# sourceMappingURL=main.c8b54640.js.map

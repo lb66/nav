@@ -1,7 +1,7 @@
 const $siteList = $('.siteList')
 const x = localStorage.getItem('x')
-const xObj = JSON.parse(x) || [] //把x变回对象
-const hashMap = xObj || [{ logo: '', url: '' },]
+const xObj = JSON.parse(x)// || [] //不显示已设定的网页 //把x变回对象
+const hashMap = xObj || [{ logo: 'Y', url: 'https://www.yuque.com/' },]
 // hashMap.splice(0, 1)//测试用
 const simplifyUrl = (url) => {
   return url.replace('https://', '')
